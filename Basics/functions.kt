@@ -9,5 +9,8 @@
 
 
 fun main(){
-    
+    myFun("I am IronMan","Marvel")
+}
+fun myFun(message:string, name:string){
+    println("Message : $message for  $name")
 }
