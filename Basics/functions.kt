@@ -9,8 +9,11 @@
 
 
 fun main(){
-    myFun("I am IronMan","Marvel")
+    myFun("I am IronMan","Marvel", 1,2,3,4,5)
 }
-fun myFun(message:String, name:String){
+fun myFun(message:String, name:String, vararg numbers : Int){
     println("Message : $message ,conveying to : $name")
+    for(i in numbers){
+        print("$i ")
+    }
 }
