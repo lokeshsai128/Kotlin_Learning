@@ -6,7 +6,9 @@
 // different ways of calling a function are : 
 // There are three ways of calling a function : 
 // 1. Function default arguments, 2. Function named arguments, 3. Variable number of arguments
-
+// Recursie function in kotlin is a bit different , we do use tail recurision in the kotlin
+// Tail recursion performs the calculation first and then execute the recursive call
+// Benefits of using tail recursion are : No need to save current function call in stack memory and also No StackOverflowError during the execution of program
 
 fun main(){
     myFun("I am IronMan","Marvel", 1,2,3,4,5)
