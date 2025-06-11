@@ -4,4 +4,10 @@
 // we can also use one liner functions if it is an expression
 // a function must be called within the main fucntion
 // different ways of calling a function are : 
-// There are three ways of calling a function
+// There are three ways of calling a function : 
+// 1. Function default arguments, 2. Function named arguments, 3. Variable number of arguments
+
+
+fun main(){
+    
+}
